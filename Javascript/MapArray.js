@@ -1,1 +1,1 @@
-var map = "grass,grass,hole;hole,grass,grass"
+var map = "grass,grass,grass;grass,grass,grass"
