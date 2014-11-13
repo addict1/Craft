@@ -1,0 +1,1 @@
+var map = "grass,grass,hole;hole,grass,grass"
