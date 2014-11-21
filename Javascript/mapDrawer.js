@@ -32,18 +32,15 @@ function drawTerrain(level){
 	for(var i = 0; i < level.length; i++){
 		for(var ii = 0; ii < level[i].length; ii++){
 			var img = new Image();
-			if(level[i][ii] == "grass"){
+			switch(level[i][ii]){
+			case "grass":
 				img = grass;
-			}
-			if(level[i][ii] == "sand"){
+			break;
+			case "sand":
 				img = sand;
-			}
+			break;
 			drawTile(img, i, ii);
-			if(level[i][ii] == ""){
-				img = ;
 			}
 		}
 	}
 }
-
-document.onKeyDown = drawTerrain(mapSuperOrganized);
