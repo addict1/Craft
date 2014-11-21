@@ -39,7 +39,7 @@ function drawTerrain(level){
 			case "sand":
 				img = sand;
 			break;
-			default
+			default:
 				img=grass;
 			drawTile(img, i, ii);
 			}
