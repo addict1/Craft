@@ -39,6 +39,8 @@ function drawTerrain(level){
 			case "sand":
 				img = sand;
 			break;
+			default
+				img=grass;
 			drawTile(img, i, ii);
 			}
 		}
